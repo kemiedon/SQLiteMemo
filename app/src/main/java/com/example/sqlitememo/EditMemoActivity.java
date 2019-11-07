@@ -74,6 +74,7 @@ public class EditMemoActivity extends AppCompatActivity implements View.OnClickL
                 finish();
                 break;
             case R.id.btn_ok:
+                //要加上edit程式碼
             //判斷要新增還是編輯備忘
                 currentTime = df.format(new Date(System.currentTimeMillis())); //取得並格式化目前日期與時間
                 new_memo = edtMemo.getText().toString();
